@@ -1,0 +1,32 @@
+[
+    {
+      "Name": "abc",
+      "Materials": [
+        {
+          "Name":"aaa",
+          "Quantity": 1
+        },
+        {
+          "Name":"aab",
+          "Quantity": 1
+        },
+        {
+          "Name":"labor",
+          "Quantity": 1
+        }
+      ]
+    },
+  {
+    "Name": "aaa",
+    "Materials": [
+      {
+        "Name":"aac",
+        "Quantity": 1
+      },
+      {
+        "Name":"labor",
+        "Quantity": 4
+      }
+    ]
+  }
+]
