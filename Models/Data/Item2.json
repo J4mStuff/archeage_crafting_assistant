@@ -1,0 +1,11 @@
+{
+  "Name": "Item 2",
+  "Alias": "Item2",
+  "MarketPrice": 1,
+  "Recipe": [
+    {
+      "Name":"Labor",
+      "Quantity": 1
+    }
+  ]
+}

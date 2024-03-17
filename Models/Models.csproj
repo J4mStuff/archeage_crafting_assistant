@@ -4,4 +4,22 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    <ItemGroup>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>..\..\..\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="Data\Item1.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\Item2.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="NotNull" Version="1.0.6" />
+      <PackageReference Include="System.Linq" Version="4.3.0" />
+      <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+    </ItemGroup>
 </Project>
